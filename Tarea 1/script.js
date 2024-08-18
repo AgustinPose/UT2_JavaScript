@@ -1,8 +1,8 @@
 /* 1. Manipulación de Cadenas*/
 
 function repeatString() {
-  const texto = document.getElementById("palabra").value;
-  const repeticiones = parseInt(document.getElementById("cantidad").value);
+  let texto = document.getElementById("palabra").value;
+  let repeticiones = parseInt(document.getElementById("cantidad").value);
 
   let resultado = "";
 
@@ -32,15 +32,15 @@ function reverseString() {
 let myArray = [1, 2, 3, 4, 5];
 
 function mostrarArray() {
-  const resultado = document.getElementById("resultado");
+  let resultado = document.getElementById("resultado");
   resultado.textContent = `Array actual: ${myArray.join(", ")}`;
 }
 
 function eliminarElemento() {
-  const item = document.getElementById("item").value;
-  const index = myArray.indexOf(Number(item));
+  let item = document.getElementById("item").value;
+  let index = myArray.indexOf(Number(item));
 
-  const resultado = document.getElementById("resultadoEliminar");
+  let resultado = document.getElementById("resultadoEliminar");
 
   if (index > -1) {
     myArray.splice(index, 1);
