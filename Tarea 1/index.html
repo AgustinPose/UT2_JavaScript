@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UT2 - JavaScript</title>
+    
+
+</head>
+<body>
+
+   <!-- 1. Manipulación de Cadenas -->
+
+    <input type="text" id="palabra" placeholder="Palabra">
+    <input type="number" id="cantidad" placeholder="Cantidad">
+    <button onclick="repeatString()"> Repetir </button>
+    <p id="resultado"></p>
+
+
+    <input type="text" id="palabra" placeholder="Palabra">
+    <button onclick="reverseString()">Revertir</button>
+    <p id="resultadoReverse"></p>
+
+    <!-- 2. Procesamiento de Arreglos -->
+    <input type="number" id="item" placeholder="Ítem a eliminar">
+    <button onclick="eliminarElemento()">Eliminar item</button>
+    <p id="resultadoEliminar"></p>
+
+    <button onclick="getTheTitles()">Obtener Titulos</button>
+    <p id="resultadoTitles"></p>
+
+    <!-- 3. Filtrado y Transformacion -->
+
+    <button onclick="getOdds()">Obtener Impares</button>
+    <p id="resultadoImpares"></p>
+
+    <button onclick="duplicates()"> Duplicados </button>
+    <h4 id="resultadoDuplicados"></h4>
+    <p id="contador"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
